@@ -1,4 +1,4 @@
-# ML_Sehat - Mentalku
+# ML_Sehat Mentalku
 
 
 This program processes users' words through their journals that written in app and Twitter account (if allowed by users).
