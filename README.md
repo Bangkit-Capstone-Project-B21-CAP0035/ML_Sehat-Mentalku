@@ -1,4 +1,5 @@
-# ML_Sehat-Mentalku
+# ML_Sehat - Mentalku
+
 
 This program processes users' words through their journals that written in app and Twitter account (if allowed by users).
 
@@ -13,7 +14,7 @@ Build the LSTM
 - LSTM for adding the Long Short-Term Memory layer
 - Dropout for adding dropout layers that prevent overfitting
 
-As a first step, we need to initiate the Sequential class. This will be our model class and we will add LSTM, Dropout, and Dense layers to this model. The LTSM 64 units which is the dimensionality of the output space. When defining the Dropout layers, we specify 0.1, meaning that 10% of the layers will be dropped. Thereafter, we add the Dense layer that specifies the output of 1 unit. After this, we compile our model using the popular adam optimizer and set the loss as loss. This will compute the binary cross-entropy. 
+As a first step, we need to initiate the Sequential class. This will be our model class and we will add LSTM, Dropout, and Dense layers to this model. The LTSM 64 units which is the dimensionality of the output space. When defining the Dropout layers, we specify 0.1, meaning that 10% of the layers will be dropped. Thereafter, we add the Dense layer that specifies the output of 1 unit. After this, we compile our model using the popular adam optimizer and set the loss as loss. This will compute the binary cross-entropy. Next, we fit the model to run on 20 epochs.
 
 The challenge that we faced is just there was NaN (Not a Number) in the dataset.
 
